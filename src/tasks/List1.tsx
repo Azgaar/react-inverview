@@ -8,9 +8,11 @@ export const List1 = () => {
   const [items, setItems] = useState(["1. Apple", "2. Banana", "3. Orange"]);
 
   const reorder = () => {
-    const newItems = [...items];
-    newItems.sort(() => Math.random() - 0.5);
-    setItems(newItems);
+    setItems(items => {
+      const newItems = [...items];
+      newItems.sort(() => Math.random() - 0.5);
+      return newItems;
+    });
   };
 
   return (
