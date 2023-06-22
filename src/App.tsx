@@ -2,6 +2,7 @@
 // Complete the tasks in the order they are listed below
 
 import "./App.css";
+import {Calculator1} from "./tasks/Calculator1";
 import {Counter1} from "./tasks/Counter1";
 import {Counter2} from "./tasks/Counter2";
 import {Fetcher1} from "./tasks/Fetcher1";
@@ -23,6 +24,10 @@ const App = () => {
       <div className="card">
         <Counter1 />
         <Counter2 />
+      </div>
+
+      <div className="card">
+        <Calculator1 />
       </div>
 
       <div className="card">

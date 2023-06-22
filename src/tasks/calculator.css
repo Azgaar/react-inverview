@@ -1,0 +1,12 @@
+.calculator {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.operand,
+#operator {
+  width: 4em;
+  height: 20px;
+}

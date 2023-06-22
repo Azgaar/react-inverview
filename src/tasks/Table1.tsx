@@ -9,7 +9,7 @@ const data: Character[] = await fetch(API_URL).then(res => res.json());
 console.log(data);
 
 export const Table1 = () => {
-  return <div>Table</div>;
+  return <div>{data[0].url}</div>;
 };
 
 interface Character {
