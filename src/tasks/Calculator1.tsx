@@ -6,6 +6,7 @@ import "./Calculator.css";
 export const Calculator1 = () => {
   return (
     <div className="calculator">
+      <h3>Calculator</h3>
       <input id="operand1" className="operand" type="number" />
       <select id="operator">
         <option value="add">+</option>

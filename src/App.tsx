@@ -12,6 +12,7 @@ import {List1} from "./tasks/List1";
 import {List2} from "./tasks/List2";
 import {List3} from "./tasks/List3";
 import {Table1} from "./tasks/Table1";
+import {Timer1} from "./tasks/Timer1";
 
 const App = () => {
   return (
@@ -28,6 +29,10 @@ const App = () => {
 
       <div className="card">
         <Calculator1 />
+      </div>
+
+      <div className="card">
+        <Timer1 />
       </div>
 
       <div className="card">
