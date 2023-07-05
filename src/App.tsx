@@ -11,6 +11,7 @@ import {Input2} from "./tasks/Input2";
 import {List1} from "./tasks/List1";
 import {List2} from "./tasks/List2";
 import {List3} from "./tasks/List3";
+import {Optimization1} from "./tasks/Optimization1";
 import {Table1} from "./tasks/Table1";
 import {Timer1} from "./tasks/Timer1";
 
@@ -43,6 +44,10 @@ const App = () => {
         <List1 />
         <List2 />
         <List3 />
+      </div>
+
+      <div className="card">
+        <Optimization1 />
       </div>
 
       <div className="card">
